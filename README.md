@@ -63,11 +63,13 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  checked server logs and corrected error 500 since Toys were not initialized
 
 - Update the number of likes for a toy
 
   - How I debugged:
-
+looked at the console  and noted json end of input error and the controller update method was not returning response added the response 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  not  found error so i added a route to match delete in the config routes
